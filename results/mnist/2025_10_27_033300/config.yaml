@@ -1,0 +1,9 @@
+!!python/object:argparse.Namespace
+ckpt_dir: ./results/mnist/2025_10_27_033300/ckpts
+dataset: MNIST
+exp_root_dir: ./results/mnist/2025_10_27_033300
+h_dim1: 512
+h_dim2: 256
+log_dir: ./results/mnist/2025_10_27_033300/logs
+x_dim: 784
+z_dim: 8

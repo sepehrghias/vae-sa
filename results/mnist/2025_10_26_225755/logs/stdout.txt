@@ -1,0 +1,21 @@
+INFO - train_cvae.py - 2025-10-26 22:57:55,602 - Beginning basic training of conditional VAE
+INFO - train_cvae.py - 2025-10-26 23:01:03,756 - Train Step: 4999 (5%)	 Avg Train Loss Per Batch: 35736.815503	 Avg Test Loss Per Batch: 28555.933667
+INFO - train_cvae.py - 2025-10-26 23:04:05,823 - Train Step: 9999 (10%)	 Avg Train Loss Per Batch: 28279.752460	 Avg Test Loss Per Batch: 26799.160184
+INFO - train_cvae.py - 2025-10-26 23:07:05,795 - Train Step: 14999 (15%)	 Avg Train Loss Per Batch: 27030.465637	 Avg Test Loss Per Batch: 26049.728259
+INFO - train_cvae.py - 2025-10-26 23:10:04,141 - Train Step: 19999 (20%)	 Avg Train Loss Per Batch: 26361.159737	 Avg Test Loss Per Batch: 25620.356265
+INFO - train_cvae.py - 2025-10-26 23:13:02,199 - Train Step: 24999 (25%)	 Avg Train Loss Per Batch: 25919.864021	 Avg Test Loss Per Batch: 25330.761148
+INFO - train_cvae.py - 2025-10-26 23:16:00,873 - Train Step: 29999 (30%)	 Avg Train Loss Per Batch: 25591.512447	 Avg Test Loss Per Batch: 25106.324652
+INFO - train_cvae.py - 2025-10-26 23:18:59,779 - Train Step: 34999 (35%)	 Avg Train Loss Per Batch: 25337.607320	 Avg Test Loss Per Batch: 24940.426099
+INFO - train_cvae.py - 2025-10-26 23:29:05,126 - Train Step: 39999 (40%)	 Avg Train Loss Per Batch: 25128.307591	 Avg Test Loss Per Batch: 24831.073880
+INFO - train_cvae.py - 2025-10-26 23:32:02,466 - Train Step: 44999 (45%)	 Avg Train Loss Per Batch: 24957.664661	 Avg Test Loss Per Batch: 24722.070074
+INFO - train_cvae.py - 2025-10-26 23:34:59,792 - Train Step: 49999 (50%)	 Avg Train Loss Per Batch: 24805.422335	 Avg Test Loss Per Batch: 24629.858752
+INFO - train_cvae.py - 2025-10-26 23:37:57,234 - Train Step: 54999 (55%)	 Avg Train Loss Per Batch: 24672.618033	 Avg Test Loss Per Batch: 24561.069250
+INFO - train_cvae.py - 2025-10-26 23:40:56,261 - Train Step: 59999 (60%)	 Avg Train Loss Per Batch: 24559.521654	 Avg Test Loss Per Batch: 24503.861060
+INFO - train_cvae.py - 2025-10-26 23:43:54,204 - Train Step: 64999 (65%)	 Avg Train Loss Per Batch: 24458.952167	 Avg Test Loss Per Batch: 24432.115601
+INFO - train_cvae.py - 2025-10-26 23:46:50,501 - Train Step: 69999 (70%)	 Avg Train Loss Per Batch: 24365.469298	 Avg Test Loss Per Batch: 24404.848572
+INFO - train_cvae.py - 2025-10-26 23:49:46,870 - Train Step: 74999 (75%)	 Avg Train Loss Per Batch: 24278.433515	 Avg Test Loss Per Batch: 24360.872333
+INFO - train_cvae.py - 2025-10-26 23:52:43,632 - Train Step: 79999 (80%)	 Avg Train Loss Per Batch: 24209.206490	 Avg Test Loss Per Batch: 24328.896448
+INFO - train_cvae.py - 2025-10-26 23:55:41,353 - Train Step: 84999 (85%)	 Avg Train Loss Per Batch: 24143.884457	 Avg Test Loss Per Batch: 24295.516913
+INFO - train_cvae.py - 2025-10-26 23:58:38,596 - Train Step: 89999 (90%)	 Avg Train Loss Per Batch: 24079.576857	 Avg Test Loss Per Batch: 24280.117706
+INFO - train_cvae.py - 2025-10-27 00:01:36,068 - Train Step: 94999 (95%)	 Avg Train Loss Per Batch: 24020.197938	 Avg Test Loss Per Batch: 24246.377933
+INFO - train_cvae.py - 2025-10-27 00:04:33,657 - Train Step: 99999 (100%)	 Avg Train Loss Per Batch: 23973.355973	 Avg Test Loss Per Batch: 24239.865158

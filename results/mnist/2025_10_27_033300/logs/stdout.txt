@@ -1,0 +1,152 @@
+INFO - train_forget.py - 2025-10-27 03:33:00,549 - CVAE forgetting training.
+INFO - train_forget.py - 2025-10-27 03:33:00,549 - Digit to drop: 4, lambda: 100.0, gamma: 1
+INFO - train_forget.py - 2025-10-27 03:33:10,093 - Train Step: 199 (2%)	 Avg Train Loss Per Batch: 525305.784375
+INFO - train_forget.py - 2025-10-27 03:33:10,093 - Avg Forgetting Loss Per Batch: 525210.812500	 Avg EWC Loss Per Batch
+: 95.049065
+INFO - train_forget.py - 2025-10-27 03:33:19,781 - Train Step: 399 (4%)	 Avg Train Loss Per Batch: 182077.960391
+INFO - train_forget.py - 2025-10-27 03:33:19,781 - Avg Forgetting Loss Per Batch: 181834.250000	 Avg EWC Loss Per Batch
+: 243.781906
+INFO - train_forget.py - 2025-10-27 03:33:29,112 - Train Step: 599 (6%)	 Avg Train Loss Per Batch: 172925.669609
+INFO - train_forget.py - 2025-10-27 03:33:29,112 - Avg Forgetting Loss Per Batch: 172642.500000	 Avg EWC Loss Per Batch
+: 283.161011
+INFO - train_forget.py - 2025-10-27 03:33:38,312 - Train Step: 799 (8%)	 Avg Train Loss Per Batch: 171953.668047
+INFO - train_forget.py - 2025-10-27 03:33:38,312 - Avg Forgetting Loss Per Batch: 171651.343750	 Avg EWC Loss Per Batch
+: 302.263977
+INFO - train_forget.py - 2025-10-27 03:33:47,522 - Train Step: 999 (10%)	 Avg Train Loss Per Batch: 171378.139609
+INFO - train_forget.py - 2025-10-27 03:33:47,522 - Avg Forgetting Loss Per Batch: 171058.156250	 Avg EWC Loss Per Batch
+: 319.957306
+INFO - train_forget.py - 2025-10-27 03:33:56,625 - Train Step: 1199 (12%)	 Avg Train Loss Per Batch: 170913.431484
+INFO - train_forget.py - 2025-10-27 03:33:56,625 - Avg Forgetting Loss Per Batch: 170574.406250	 Avg EWC Loss Per Batch
+: 339.019043
+INFO - train_forget.py - 2025-10-27 03:34:05,866 - Train Step: 1399 (14%)	 Avg Train Loss Per Batch: 170538.944219
+INFO - train_forget.py - 2025-10-27 03:34:05,866 - Avg Forgetting Loss Per Batch: 170178.890625	 Avg EWC Loss Per Batch
+: 360.080811
+INFO - train_forget.py - 2025-10-27 03:34:15,022 - Train Step: 1599 (16%)	 Avg Train Loss Per Batch: 170238.973437
+INFO - train_forget.py - 2025-10-27 03:34:15,023 - Avg Forgetting Loss Per Batch: 169856.437500	 Avg EWC Loss Per Batch
+: 382.512726
+INFO - train_forget.py - 2025-10-27 03:34:24,250 - Train Step: 1799 (18%)	 Avg Train Loss Per Batch: 170012.874766
+INFO - train_forget.py - 2025-10-27 03:34:24,250 - Avg Forgetting Loss Per Batch: 169606.906250	 Avg EWC Loss Per Batch
+: 405.985321
+INFO - train_forget.py - 2025-10-27 03:34:33,408 - Train Step: 1999 (20%)	 Avg Train Loss Per Batch: 169763.439375
+INFO - train_forget.py - 2025-10-27 03:34:33,409 - Avg Forgetting Loss Per Batch: 169333.671875	 Avg EWC Loss Per Batch
+: 429.696625
+INFO - train_forget.py - 2025-10-27 03:34:42,611 - Train Step: 2199 (22%)	 Avg Train Loss Per Batch: 169583.446328
+INFO - train_forget.py - 2025-10-27 03:34:42,612 - Avg Forgetting Loss Per Batch: 169130.968750	 Avg EWC Loss Per Batch
+: 452.474304
+INFO - train_forget.py - 2025-10-27 03:34:51,842 - Train Step: 2399 (24%)	 Avg Train Loss Per Batch: 169383.751797
+INFO - train_forget.py - 2025-10-27 03:34:51,843 - Avg Forgetting Loss Per Batch: 168909.343750	 Avg EWC Loss Per Batch
+: 474.467346
+INFO - train_forget.py - 2025-10-27 03:35:01,099 - Train Step: 2599 (26%)	 Avg Train Loss Per Batch: 169246.625078
+INFO - train_forget.py - 2025-10-27 03:35:01,100 - Avg Forgetting Loss Per Batch: 168750.859375	 Avg EWC Loss Per Batch
+: 495.718353
+INFO - train_forget.py - 2025-10-27 03:35:10,723 - Train Step: 2799 (28%)	 Avg Train Loss Per Batch: 169154.779375
+INFO - train_forget.py - 2025-10-27 03:35:10,723 - Avg Forgetting Loss Per Batch: 168638.718750	 Avg EWC Loss Per Batch
+: 516.054016
+INFO - train_forget.py - 2025-10-27 03:49:49,715 - Train Step: 2999 (30%)	 Avg Train Loss Per Batch: 169002.569531
+INFO - train_forget.py - 2025-10-27 03:49:49,716 - Avg Forgetting Loss Per Batch: 168467.890625	 Avg EWC Loss Per Batch
+: 534.703064
+INFO - train_forget.py - 2025-10-27 03:49:58,413 - Train Step: 3199 (32%)	 Avg Train Loss Per Batch: 168865.962422
+INFO - train_forget.py - 2025-10-27 03:49:58,414 - Avg Forgetting Loss Per Batch: 168314.375000	 Avg EWC Loss Per Batch
+: 551.631592
+INFO - train_forget.py - 2025-10-27 03:50:08,194 - Train Step: 3399 (34%)	 Avg Train Loss Per Batch: 168833.744609
+INFO - train_forget.py - 2025-10-27 03:50:08,195 - Avg Forgetting Loss Per Batch: 168265.687500	 Avg EWC Loss Per Batch
+: 568.059753
+INFO - train_forget.py - 2025-10-27 03:50:17,408 - Train Step: 3599 (36%)	 Avg Train Loss Per Batch: 168700.019922
+INFO - train_forget.py - 2025-10-27 03:50:17,408 - Avg Forgetting Loss Per Batch: 168117.265625	 Avg EWC Loss Per Batch
+: 582.773315
+INFO - train_forget.py - 2025-10-27 03:50:26,499 - Train Step: 3799 (38%)	 Avg Train Loss Per Batch: 168632.618359
+INFO - train_forget.py - 2025-10-27 03:50:26,499 - Avg Forgetting Loss Per Batch: 168036.187500	 Avg EWC Loss Per Batch
+: 596.447021
+INFO - train_forget.py - 2025-10-27 03:50:35,437 - Train Step: 3999 (40%)	 Avg Train Loss Per Batch: 168514.336641
+INFO - train_forget.py - 2025-10-27 03:50:35,437 - Avg Forgetting Loss Per Batch: 167906.359375	 Avg EWC Loss Per Batch
+: 607.972351
+INFO - train_forget.py - 2025-10-27 03:50:44,505 - Train Step: 4199 (42%)	 Avg Train Loss Per Batch: 168502.460469
+INFO - train_forget.py - 2025-10-27 03:50:44,505 - Avg Forgetting Loss Per Batch: 167883.406250	 Avg EWC Loss Per Batch
+: 619.010254
+INFO - train_forget.py - 2025-10-27 03:50:53,674 - Train Step: 4399 (44%)	 Avg Train Loss Per Batch: 168360.605156
+INFO - train_forget.py - 2025-10-27 03:50:53,674 - Avg Forgetting Loss Per Batch: 167732.078125	 Avg EWC Loss Per Batch
+: 628.513672
+INFO - train_forget.py - 2025-10-27 03:51:02,766 - Train Step: 4599 (46%)	 Avg Train Loss Per Batch: 168287.847813
+INFO - train_forget.py - 2025-10-27 03:51:02,766 - Avg Forgetting Loss Per Batch: 167650.187500	 Avg EWC Loss Per Batch
+: 637.677612
+INFO - train_forget.py - 2025-10-27 03:51:11,885 - Train Step: 4799 (48%)	 Avg Train Loss Per Batch: 168315.061484
+INFO - train_forget.py - 2025-10-27 03:51:11,886 - Avg Forgetting Loss Per Batch: 167668.875000	 Avg EWC Loss Per Batch
+: 646.201477
+INFO - train_forget.py - 2025-10-27 03:51:21,107 - Train Step: 4999 (50%)	 Avg Train Loss Per Batch: 168265.058594
+INFO - train_forget.py - 2025-10-27 03:51:21,107 - Avg Forgetting Loss Per Batch: 167610.359375	 Avg EWC Loss Per Batch
+: 654.740845
+INFO - train_forget.py - 2025-10-27 03:51:30,200 - Train Step: 5199 (52%)	 Avg Train Loss Per Batch: 168130.004766
+INFO - train_forget.py - 2025-10-27 03:51:30,200 - Avg Forgetting Loss Per Batch: 167467.156250	 Avg EWC Loss Per Batch
+: 662.856201
+INFO - train_forget.py - 2025-10-27 03:51:39,285 - Train Step: 5399 (54%)	 Avg Train Loss Per Batch: 168100.855313
+INFO - train_forget.py - 2025-10-27 03:51:39,285 - Avg Forgetting Loss Per Batch: 167430.203125	 Avg EWC Loss Per Batch
+: 670.672974
+INFO - train_forget.py - 2025-10-27 03:51:48,432 - Train Step: 5599 (56%)	 Avg Train Loss Per Batch: 168056.328125
+INFO - train_forget.py - 2025-10-27 03:51:48,432 - Avg Forgetting Loss Per Batch: 167378.593750	 Avg EWC Loss Per Batch
+: 677.756592
+INFO - train_forget.py - 2025-10-27 03:51:57,594 - Train Step: 5799 (58%)	 Avg Train Loss Per Batch: 167979.903438
+INFO - train_forget.py - 2025-10-27 03:51:57,594 - Avg Forgetting Loss Per Batch: 167294.921875	 Avg EWC Loss Per Batch
+: 684.999634
+INFO - train_forget.py - 2025-10-27 03:52:06,696 - Train Step: 5999 (60%)	 Avg Train Loss Per Batch: 167970.709688
+INFO - train_forget.py - 2025-10-27 03:52:06,696 - Avg Forgetting Loss Per Batch: 167278.640625	 Avg EWC Loss Per Batch
+: 692.035400
+INFO - train_forget.py - 2025-10-27 03:52:15,878 - Train Step: 6199 (62%)	 Avg Train Loss Per Batch: 167889.966875
+INFO - train_forget.py - 2025-10-27 03:52:15,878 - Avg Forgetting Loss Per Batch: 167191.937500	 Avg EWC Loss Per Batch
+: 698.026306
+INFO - train_forget.py - 2025-10-27 03:52:25,067 - Train Step: 6399 (64%)	 Avg Train Loss Per Batch: 167847.597031
+INFO - train_forget.py - 2025-10-27 03:52:25,067 - Avg Forgetting Loss Per Batch: 167143.484375	 Avg EWC Loss Per Batch
+: 704.054749
+INFO - train_forget.py - 2025-10-27 03:52:34,261 - Train Step: 6599 (66%)	 Avg Train Loss Per Batch: 167728.079766
+INFO - train_forget.py - 2025-10-27 03:52:34,261 - Avg Forgetting Loss Per Batch: 167017.296875	 Avg EWC Loss Per Batch
+: 710.820190
+INFO - train_forget.py - 2025-10-27 03:52:43,374 - Train Step: 6799 (68%)	 Avg Train Loss Per Batch: 167717.792578
+INFO - train_forget.py - 2025-10-27 03:52:43,374 - Avg Forgetting Loss Per Batch: 167000.890625	 Avg EWC Loss Per Batch
+: 716.887634
+INFO - train_forget.py - 2025-10-27 03:52:52,634 - Train Step: 6999 (70%)	 Avg Train Loss Per Batch: 167671.005859
+INFO - train_forget.py - 2025-10-27 03:52:52,634 - Avg Forgetting Loss Per Batch: 166948.828125	 Avg EWC Loss Per Batch
+: 722.154419
+INFO - train_forget.py - 2025-10-27 03:53:01,815 - Train Step: 7199 (72%)	 Avg Train Loss Per Batch: 167647.338125
+INFO - train_forget.py - 2025-10-27 03:53:01,816 - Avg Forgetting Loss Per Batch: 166919.812500	 Avg EWC Loss Per Batch
+: 727.534607
+INFO - train_forget.py - 2025-10-27 03:53:11,008 - Train Step: 7399 (74%)	 Avg Train Loss Per Batch: 167565.009141
+INFO - train_forget.py - 2025-10-27 03:53:11,008 - Avg Forgetting Loss Per Batch: 166832.593750	 Avg EWC Loss Per Batch
+: 732.391357
+INFO - train_forget.py - 2025-10-27 03:53:20,103 - Train Step: 7599 (76%)	 Avg Train Loss Per Batch: 167589.992812
+INFO - train_forget.py - 2025-10-27 03:53:20,103 - Avg Forgetting Loss Per Batch: 166853.265625	 Avg EWC Loss Per Batch
+: 736.712402
+INFO - train_forget.py - 2025-10-27 03:53:29,181 - Train Step: 7799 (78%)	 Avg Train Loss Per Batch: 167478.873516
+INFO - train_forget.py - 2025-10-27 03:53:29,181 - Avg Forgetting Loss Per Batch: 166738.109375	 Avg EWC Loss Per Batch
+: 740.717224
+INFO - train_forget.py - 2025-10-27 03:53:38,338 - Train Step: 7999 (80%)	 Avg Train Loss Per Batch: 167431.603516
+INFO - train_forget.py - 2025-10-27 03:53:38,338 - Avg Forgetting Loss Per Batch: 166687.531250	 Avg EWC Loss Per Batch
+: 744.104065
+INFO - train_forget.py - 2025-10-27 03:53:47,415 - Train Step: 8199 (82%)	 Avg Train Loss Per Batch: 167452.750625
+INFO - train_forget.py - 2025-10-27 03:53:47,415 - Avg Forgetting Loss Per Batch: 166705.484375	 Avg EWC Loss Per Batch
+: 747.228516
+INFO - train_forget.py - 2025-10-27 03:53:56,581 - Train Step: 8399 (84%)	 Avg Train Loss Per Batch: 167351.161016
+INFO - train_forget.py - 2025-10-27 03:53:56,581 - Avg Forgetting Loss Per Batch: 166601.187500	 Avg EWC Loss Per Batch
+: 749.996643
+INFO - train_forget.py - 2025-10-27 03:54:05,801 - Train Step: 8599 (86%)	 Avg Train Loss Per Batch: 167373.622500
+INFO - train_forget.py - 2025-10-27 03:54:05,801 - Avg Forgetting Loss Per Batch: 166621.859375	 Avg EWC Loss Per Batch
+: 751.773926
+INFO - train_forget.py - 2025-10-27 03:54:15,062 - Train Step: 8799 (88%)	 Avg Train Loss Per Batch: 167358.884297
+INFO - train_forget.py - 2025-10-27 03:54:15,062 - Avg Forgetting Loss Per Batch: 166606.375000	 Avg EWC Loss Per Batch
+: 752.538391
+INFO - train_forget.py - 2025-10-27 03:54:24,342 - Train Step: 8999 (90%)	 Avg Train Loss Per Batch: 167303.338906
+INFO - train_forget.py - 2025-10-27 03:54:24,342 - Avg Forgetting Loss Per Batch: 166550.531250	 Avg EWC Loss Per Batch
+: 752.816650
+INFO - train_forget.py - 2025-10-27 03:54:33,501 - Train Step: 9199 (92%)	 Avg Train Loss Per Batch: 167250.173047
+INFO - train_forget.py - 2025-10-27 03:54:33,502 - Avg Forgetting Loss Per Batch: 166496.937500	 Avg EWC Loss Per Batch
+: 753.193298
+INFO - train_forget.py - 2025-10-27 03:54:42,641 - Train Step: 9399 (94%)	 Avg Train Loss Per Batch: 167294.894688
+INFO - train_forget.py - 2025-10-27 03:54:42,641 - Avg Forgetting Loss Per Batch: 166542.984375	 Avg EWC Loss Per Batch
+: 751.900635
+INFO - train_forget.py - 2025-10-27 03:54:51,872 - Train Step: 9599 (96%)	 Avg Train Loss Per Batch: 167241.365938
+INFO - train_forget.py - 2025-10-27 03:54:51,872 - Avg Forgetting Loss Per Batch: 166490.515625	 Avg EWC Loss Per Batch
+: 750.853271
+INFO - train_forget.py - 2025-10-27 03:55:01,298 - Train Step: 9799 (98%)	 Avg Train Loss Per Batch: 167228.942812
+INFO - train_forget.py - 2025-10-27 03:55:01,299 - Avg Forgetting Loss Per Batch: 166479.796875	 Avg EWC Loss Per Batch
+: 749.162109
+INFO - train_forget.py - 2025-10-27 03:55:10,329 - Train Step: 9999 (100%)	 Avg Train Loss Per Batch: 167242.115000
+INFO - train_forget.py - 2025-10-27 03:55:10,329 - Avg Forgetting Loss Per Batch: 166494.843750	 Avg EWC Loss Per Batch
+: 747.290344

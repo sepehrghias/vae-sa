@@ -23,18 +23,26 @@ def load_vae(ckpt_path, device):
 
 
 @torch.no_grad()
-def extract_latents(vae, dataloader, device):
+def extract_latents_twice(vae, dataloader, device):
     zs, labels = [], []
     for data, label in dataloader:
         data, label = data.to(device), label.to(device)
         label_oh = F.one_hot(label, 10).float()
-        mu, log_var = vae.encoder(data.view(-1, 784), label_oh)
-        std = torch.exp(0.5*log_var)
-        eps = torch.randn_like(std)
-        z = eps.mul(std).add_(mu)
-        zs.append(z.cpu().numpy())
+
+        # 1. Encode input
+        mu, _ = vae.encoder(data.view(-1, 784), label_oh)
+
+        # 2. Decode mu
+        x_hat = vae.decoder(mu, label_oh)
+
+        # 3. Encode reconstructed x_hat
+        z_new, _ = vae.encoder(x_hat, label_oh)
+
+        zs.append(z_new.cpu().numpy())
         labels.append(label.cpu().numpy())
+
     return np.concatenate(zs, axis=0), np.concatenate(labels, axis=0)
+
 
 
 def plot_latent_embeddings(zs, labels, save_path, title="t-SNE latent space"):
@@ -76,12 +84,12 @@ def main():
     test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=512, shuffle=False)
 
     # Extract latent representations
-    zs_base, labels = extract_latents(vae_base, test_loader, device)
-    zs_forget, _ = extract_latents(vae_forget, test_loader, device)
+    zs_base, labels = extract_latents_twice(vae_base, test_loader, device)
+    zs_forget, forget_labels = extract_latents_twice(vae_forget, test_loader, device)
 
     # Plot t-SNE for both
     plot_latent_embeddings(zs_base, labels, save_path=os.path.join(base_ckpt_path, "latent_tsne_before.png"), title="Before Forgetting")
-    plot_latent_embeddings(zs_forget, labels, save_path=os.path.join(forget_ckpt_path, "latent_tsne_after.png"), title="After Forgetting")
+    plot_latent_embeddings(zs_forget, forget_labels, save_path=os.path.join(forget_ckpt_path, "latent_tsne_after.png"), title="After Forgetting")
 
 
 if __name__ == "__main__":

@@ -18,11 +18,12 @@ def parse_args_and_ckpt():
     parser.add_argument(
         "--ckpt_folder", type=str, required=True, help="Path to folder of original VAE"
     )
-    
+
     parser.add_argument(
-        "--label_to_drop", type=int, default=0, help='Which MNIST class to drop'
+        "--labels_to_drop", nargs="+", type=int, required=True,
+        help="List of MNIST classes to drop, e.g. --labels_to_drop 0 1"
     )
-    
+
     parser.add_argument(
         "--lmbda", type=float, default = 100, help = "Lambda hyperparameter for EWC term in loss"
     )
@@ -75,10 +76,9 @@ def train():
     
     vae_clone = copy.deepcopy(vae)
     vae_clone.eval()
-    
-    label_choices = list(range(10))
-    label_choices.remove(args.label_to_drop)
-    
+
+    label_choices = [i for i in range(10) if i not in args.labels_to_drop]
+
     vae.train()
     train_loss = 0
     forgetting_loss = 0
@@ -89,8 +89,9 @@ def train():
         c_remember = torch.from_numpy(np.random.choice(label_choices, size=args.batch_size)).to(device)
         c_remember = F.one_hot(c_remember, 10)
         z_remember = torch.randn((args.batch_size, new_config.z_dim)).to(device)
-        
-        c_forget = (torch.ones(args.batch_size, dtype=int) * args.label_to_drop).to(device)
+
+        labels_to_drop_np = np.random.choice(args.labels_to_drop, size=args.batch_size)
+        c_forget = torch.from_numpy(labels_to_drop_np).to(device)
         c_forget = F.one_hot(c_forget, 10)
         out_forget = torch.rand((args.batch_size, 1, 28, 28)).to(device)
 
@@ -148,7 +149,7 @@ if __name__ == "__main__":
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     args, ckpt, old_config, new_config = parse_args_and_ckpt()
     logging.info(f"CVAE forgetting training.")
-    logging.info(f"Digit to drop: {args.label_to_drop}, lambda: {args.lmbda}, gamma: {args.gamma}")
+    logging.info(f"Digits to drop: {args.labels_to_drop}, lambda: {args.lmbda}, gamma: {args.gamma}")
 
     # build model
     vae = OneHotCVAE(x_dim=new_config.x_dim, h_dim1= new_config.h_dim1, h_dim2=new_config.h_dim2, z_dim=new_config.z_dim)

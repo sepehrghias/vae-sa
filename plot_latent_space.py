@@ -34,7 +34,7 @@ def latent_traversal(vae, config, save_path, n_steps=10):
     z2 = np.linspace(-3, 3, n_steps)
     grid_imgs = []
 
-    label = torch.tensor([0]).to(device)  # choose any label (or loop over)
+    label = torch.tensor([9]).to(device)  # choose any label (or loop over)
     c = F.one_hot(label, 10).float().repeat(n_steps * n_steps, 1)
 
     for i in z1:
@@ -56,12 +56,12 @@ def main():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     # === Change these paths ===
-    ckpt_path = "./results/mnist/2025_10_27_022203"  # or your SA model path
+    ckpt_path = "./results/mnist/2025_10_28_183119"  # or your SA model path
 
     vae, config = load_vae(ckpt_path, device)
 
     # === Left Plot: Latent Traversal ===
-    latent_traversal(vae, config, save_path=os.path.join(ckpt_path, "latent_traversal0.png"))
+    latent_traversal(vae, config, save_path=os.path.join(ckpt_path, "latent_traversal9.png"))
 
     # === Right Plot: Latent Space (t-SNE) ===
     # test_dataset = datasets.MNIST("./dataset", train=False, transform=transforms.ToTensor(), download=True)

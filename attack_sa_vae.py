@@ -17,7 +17,7 @@ def parse_args():
     parser.add_argument("--n_iters", type=int, default=2000, help="Number of attack iterations")
     parser.add_argument("--lr", type=float, default=1e-4, help="Learning rate for decoder update")
     parser.add_argument("--z_dim", type=int, default=8, help="Latent dimension if not in ckpt")
-    parser.add_argument("--save_dir", type=str, default="./attack_results", help="Directory to save generated images")
+    parser.add_argument("--save_dir", type=str, default="./attack_results9", help="Directory to save generated images")
     parser.add_argument("--log_freq", type=int, default=100, help="Logging frequency")
     parser.add_argument("--classifier_returns_logits", action="store_true", help="If classifier returns logits")
     args = parser.parse_args()
